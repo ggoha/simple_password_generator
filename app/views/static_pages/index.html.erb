@@ -1,0 +1,10 @@
+<%= form_tag("", method: "POST", remote: true) do %>
+  <%= text_field_tag "q[]" %>
+  <%= text_field_tag "q[]" %>
+  <%= text_field_tag "q[]" %>
+  <%= submit_tag("Сгенерировать") %>
+<% end %>
+<button type="button" onclick="add();"> Добавить </button>
+<div class="output"></div>
+
+

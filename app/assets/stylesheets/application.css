@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+form{
+  position: relative;
+}
+
+form [name="commit"]{
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+}

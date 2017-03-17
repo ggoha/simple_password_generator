@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function add(){
+  $("form").append('<input name="q[]" id="q_" type="text">');
+}
